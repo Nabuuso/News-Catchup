@@ -12,7 +12,7 @@ To get the code..
 
 1. Cloning the repository:
   ```bash
-  git clone https://github.com/Nabuuso/News-Highlights.git
+  https://github.com/Nabuuso/News-Catchup.git
   ```
 2. Move to the folder and install requirements
   ```bash
