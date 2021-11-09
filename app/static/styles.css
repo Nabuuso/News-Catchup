@@ -1,30 +1,30 @@
 body{
-    background-color: #8fd9fc;
+    background-color: #f5dcb8;
 }
 
 .navbar{
-    color: #8fd9fc;
-    font-size: 15px;
-    padding: 30px;
+    color: #77d3b0;
+    font-size: 18px;
+    padding: 35px;
 }
 
 h2{
     text-align: center;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 h3{
     text-align: center;
-    font-weight: 400;
+    font-weight: 420;
 }
 
 #pad{
-    background-color: mediumseagreen;
+    background-color: rgb(242, 250, 246);
 }
 
 #head{
-    background-color: rgb(91, 91, 224);
-    color: white;
+    background-color: rgb(29, 143, 99);
+    color: rgb(225, 245, 235);
     padding: 25px;
     margin-top: 0;
 }
