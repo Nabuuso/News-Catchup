@@ -3,7 +3,7 @@ import os
 class Config:
 
     
-    # NEWS_API_BASE_URL = 'https://newsapi.org/v2/sources?apiKey={}'
+   
     NEWS_API_BASE_URL = 'https://newsapi.org/v2/sources?language=en&apiKey={}'
     NEWS_API_ARTICLES_URL = 'https://newsapi.org/v2/top-headlines?sources={}&apiKey={}'
     #NEWS_API_ARTICLES_URL = 'https://newsapi.org/v2/top-headlines?sources={}&apiKey={}'
