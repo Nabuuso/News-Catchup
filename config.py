@@ -11,13 +11,13 @@ class Config:
     
 
 class ProdConfig(Config):
-    pass
+    debug=False;
 
 
 class DevConfig(Config):
     debug = True
 
 config_options = {
-'development':DevConfig
-#'production':ProdConfig
+'development':DevConfig,
+'production':ProdConfig
 }

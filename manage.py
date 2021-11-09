@@ -5,6 +5,8 @@ from app.requests import get_sources
 
 app = create_app('development')
 
+
+
 manager = Manager(app)
 manager.add_command('server', Server)
 
