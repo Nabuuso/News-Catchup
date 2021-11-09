@@ -12,7 +12,7 @@ manager.add_command('server', Server)
 def index():
     business_source = get_sources()
     
-   
+    # print(business_source)
     title = 'Home - Welcome to The best Movie Review Website Online'
     return render_template('index.html',business_sources = business_source)
 
