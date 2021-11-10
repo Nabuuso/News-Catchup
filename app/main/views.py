@@ -27,17 +27,19 @@ from ..requests import get_sources
 #     return render_template('articles.html',id = article_id)
 
 
-# @main.route('/')
-# def index():
-#     business_source = get_sources()    
-#    # print(business_source)
-#     title = 'Home - Welcome to The best Movie Review Website Online'
-#     return render_template('index.html',business_sources = business_source)
+@main.route('/')
+def index():
+    business_source = get_sources()    
+   # print(business_source)
+    title = 'Home - Welcome to The best Movie Review Website Online'
+    return render_template('index.html',business_sources = business_source)
 
-# @main.route('/articles/<int:article_id>')
-# def articles(article_id):
+@main.route('/articles/<int:article_id>')
+def articles(article_id):
 
-#      '''
-#      View news page function that returns the news details page and its data
-#      '''
-#      return render_template('articles.html',id = article_id)
+     '''
+     View news page function that returns the news details page and its data
+     '''
+     return render_template('articles.html',id = article_id)
+
+
