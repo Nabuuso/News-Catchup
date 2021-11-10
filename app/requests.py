@@ -3,7 +3,7 @@ import json
 from .models import Source, Articles
 import os
 
-api_key = ''
+api_key = None
 
 base_url_sources = None
 
@@ -18,7 +18,7 @@ def configure_request(app):
     
     # base_url_sources = os.environ.get("NEWS_API_BASE_URL")
     # base_url_articles = os.environ.get("NEWS_API_ARTICLES_URL")
-    api_key = os.environ().get("NEWS_API_KEY")
+    #api_key = os.environ().get("NEWS_API_KEY")
 
 
 def get_sources():
